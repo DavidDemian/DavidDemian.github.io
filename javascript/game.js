@@ -47,7 +47,7 @@ document.onkeyup = function (event) {
         if (guessesLeft <= 0) {
             score = 0;
             guessesLeft = 5;
-            console.log(guessed);
+            // console.log(guessed);
             // guessed.push(userGuess);
             alert("GameOver");
             reset();
